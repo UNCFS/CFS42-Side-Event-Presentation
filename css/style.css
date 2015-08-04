@@ -1,0 +1,55 @@
+#cfs-logo {
+	border: none;
+	box-shadow: 5px 5px 5px #123a54;
+}
+
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+    
+.reveal .slides section .fragment.highlight-yellow, .reveal .slides section .fragment.highlight-current-yellow, .reveal .slides section .fragment.highlight-darkred, .reveal .slides section .fragment.highlight-current-darkred, .reveal .slides section .fragment.highlight-violet, .reveal .slides section .fragment.highlight-current-violet {
+opacity: 1;
+visibility: visible; }
+
+.reveal .slides section .fragment.highlight-yellow.visible {
+color: #FFD73F }
+
+.reveal .slides section .fragment.highlight-darkred.visible {
+color: #f05751; }
+
+.reveal .slides section .fragment.highlight-violet.visible {
+color: #ED2E26; }
+
+.reveal .slides section .fragment.highlight-current-yellow.current-fragment {
+color: #FFD73F }
+
+.reveal .slides section .fragment.highlight-current-darkred.current-fragment {
+color: #BF3542; }
+
+.reveal .slides section .fragment.highlight-current-violet.current-fragment {
+color: #f05751; }
+
+#CFS-mark{
+	color: #ff9932;
+}
+
+
+span.clouditem {
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  line-height: 90%;
+}
+
+/*background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%); */
+.reveal .controls {
+	visibility: hidden;	
+}
+
+#color{
+	color: #173975;
+
+}

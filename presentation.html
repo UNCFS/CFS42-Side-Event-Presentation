@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<head>
+		<meta charset="utf-8">
+
+		<title>CFS Side Events: a retrospective</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Alessandra Gherardelli">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<!-- Grid-->
+		<link rel="stylesheet" href="css/simplegrid.css">
+		<!-- Reveal.js stylesheets -->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<!-- Animated headlines stylesheets -->
+		<link rel="stylesheet" href="animated-headline/css/reset.css"> <!-- CSS reset -->
+		<link rel="stylesheet" href="animated-headline/css/style.css"> <!-- Resource style -->
+		<script src="animated-headline/js/modernizr.js"></script> <!-- Modernizr -->
+  	
+		
+		<!-- Custom stylesheet -->
+		<link rel="stylesheet" href="css/style.css">
+
+		
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+		
+		<!-- D3.js & C3.js libraries -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<script src="c3/c3.min.js"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+</head>
+
+<body>
+<div class="reveal">
+
+	<div class="slides">
+		<!-- TITLE SLIDE -->
+		<section data-background="#2574A9" data-autoslide="5000"> 
+			<div class="grid ">
+			<div class="col-1-4">
+				<img src="images/cfs_logo.jpg" id="cfs-logo" height="150" width="150" alt="CFS"/>
+			</div>
+			<div class="col-1-2" >
+				<h1> CFS Side Events: <br/><h1>
+				<h2> a retrospective</h2> 
+			</div>
+			</div>
+		</section>
+		
+		
+		
+		<section data-autoslide="1500" data-background="#83c335"> 
+			<h2>Since 2010 CFS has hosted</h2> <br/>
+			<h1> <span class="fragment highlight-blue grow" data-autoslide="2000"> 127 side events</span>  </h1>
+		</section>
+		
+		<section data-background="images/placeholders/puppy1.jpg"> 
+			<h2> A very cute puppy* </h2>
+			<p> *(who did not attend any CFS side event </p>
+			<p> and will be soon replaced by someone who did) </p>
+		</section>
+		
+		<section data-background="#f3b56d" data-autoslide="2000"> 
+			<h1> They were attended by <span class="fragment grow highlight-darkred" data-autoslide="1500"> nearly 8000 people </span></h1>
+		</section> 
+		
+		<section data-background="https://upload.wikimedia.org/wikipedia/commons/5/53/Boxer_puppy_fawn_portrai.jpg"> 
+			<h2> Another fantastic puppy* </h2> 
+			<p> *(who did not attend any CFS side event </p>
+			<p> and will be soon replaced by someone who did) </p>
+		</section>
+			
+		<!-- 	
+		<section data-autoslide="1500" data-background="#25a99c">
+			<h1> Top 10 topics were... </h1> 
+		</section> --> 
+		
+		<section data-autoslide="38000" data-background="#27AeC4"> 
+			<div class="cd-intro col-1-1">	
+				<h1 class="cd-headline letters rotate-3">
+				<span id="color">Top 10 topics</span>
+					<div class="cd-words-wrapper">
+						<b class="is-visible"> Food security & Nutrition </b>
+						<b> Policies </b>
+						<b>Smallholders </b>
+						<b> Climate change </b>
+						<b> Rural development </b>
+						<b> Land & land tenure </b>
+						<b>Partnerships </b>
+						<b> Sustainable development </b>
+						<b> International organizations </b>
+						<b> Food systems </b>
+					</div >
+				</h1>
+			</div>
+		</section> 
+		
+		<section tagcloud data-background="#4c6182" data-autoslide="4000"> <!-- #057383 -->
+			<h1> All topics </h1> 
+			Voluntary Guidelines
+			Food security & Nutrition
+			Land & land tenure
+			Small-scale fisheries
+			Africa
+			Farming systems
+			Markets
+			Gender
+			Right to food
+			Economic policies
+			Food prices & price volatility
+			Rural development models
+			Agricultural investments
+			Inclusive business models
+			Conflicts
+			Smallholders
+			Poverty alleviation
+			Climate change
+			Urban areas
+			Natural resources
+			Sustainable development
+			Partnerships
+			Food systems
+			Food waste & production loss
+			Cooperatives
+			CFS, UN and institutions
+			Health
+			Projects
+
+		</section> 	
+
+
+		
+		<section data-background="http://i.imgur.com/nZlaeSH.jpg"> 
+			<h2> Yet another photogenic puppy* </h2>
+			<p> *(who did not attend any CFS side event </p>
+			<p> and will be soon replaced by someone who did) </p>
+
+		</section>
+		
+		<section data-background="http://images4.fanpop.com/image/photos/15800000/Cute-Puppy-puppies-15813366-1600-1200.jpg"> 
+			<h2> Last cute puppy*</h2>
+			<p> *(who did not attend any CFS side event </p>
+			<p> and will be soon replaced by someone who did) </p>
+		</section>
+		
+		<section data-background="http://cdn.playbuzz.com/cdn/0bf4a105-1e24-4cc8-8f96-15e38ace5578/3238940f-91df-4821-a5a1-5bac55ff226a.jpg"> 
+			<h2> Seriously, last puppies*</h2>
+			<p> *(who did not attend any CFS side event </p>
+			<p> and will be soon replaced by someone who did) </p>
+		</section>
+		
+		<section data-background="#008080" data-autoslide="1000">
+		<h1 id="CFS-mark"> CFS side events</span><h1>
+		<h1> <span class="fragment grow highlight-darkred" data-autoslide="500"> where </span> <span class="fragment grow highlight-darkred" data-autoslide="500"> ideas </span><span class="fragment grow highlight-darkred" data-autoslide="500">are</span><span class="fragment grow highlight-darkred" data-autoslide="500"> shared</span> </h1>
+		</section>
+		
+		
+
+	</div>
+</div>
+
+<!-- jQuery & animated-headline --> 
+	<script src="animated-headline/js/jquery-2.1.1.js"></script>
+	<script src="animated-headline/js/main.js"></script>
+
+<!-- reveal.js -->
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				loop: true, 
+				autoSlide: 2500,
+				
+				otfFragmentOrder: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/tagcloud/tagcloud.js', async: true },
+					{ src: 'plugin/otf/otf-fragment-order.js', async: true, condition: function() { return !!document.body.classList; } },
+				]
+			});
+
+		</script>
+
+
+</body>
+</html>

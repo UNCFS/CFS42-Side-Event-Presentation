@@ -1,0 +1,21 @@
+INDEX FILE: presentation.html]
+
+CSS LIBRARIES & FRAMEWORKS:
+simplegrid.css
+reveal.css
+white.css
+c3.css
+animate.css (not working! remove!)
+zenburn.css (code syntax highlighting)
+
+CUSTOM CSS:
+style.css
+
+JS LIBRARIES: 
+d3.js
+c3.js
+head.min.js
+reveal.js
+
+CUSTOM SCRIPTS
+charts.js
