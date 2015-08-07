@@ -55,7 +55,7 @@
             else {
                 //prctnge = Math.random() * 100 + 50; // Original size
 				// prctnge = 130; //fixed size
-				prctnge = Math.floor(Math.random() * (130 - 80) + 80 ) // Random size range 100-150
+				prctnge = Math.floor(Math.random() * (150 - 90) + 30 ) // Random size range 100-150
             }
 
             if (cloud.hasAttribute('large')) {
